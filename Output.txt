@@ -1,4 +1,162 @@
 Assigning
+LoopName values: x: 2 y: 2
+SetName: | Fed: 2 2 | Result: 2 2 | 
+PrintName: |22| 
+LoopName values: x: 2 y: 1
+SetName: | Fed: 2 1 | Result: 2 1 | 
+PrintName: |21| 
+LoopName values: x: 2 y: 0
+SetName: | Fed: 2 0 | Result: 2 0 | 
+PrintName: |20| 
+
+LoopName values: x: 1 y: 2
+SetName: | Fed: 1 2 | Result: 1 2 | 
+PrintName: |12| 
+LoopName values: x: 1 y: 1
+SetName: | Fed: 1 1 | Result: 1 1 | 
+PrintName: |11| 
+LoopName values: x: 1 y: 0
+SetName: | Fed: 1 0 | Result: 1 0 | 
+PrintName: |10| 
+
+LoopName values: x: 0 y: 2
+SetName: | Fed: 0 2 | Result: 0 2 | 
+PrintName: |02| 
+LoopName values: x: 0 y: 1
+SetName: | Fed: 0 1 | Result: 0 1 | 
+PrintName: |01| 
+LoopName values: x: 0 y: 0
+SetName: | Fed: 0 0 | Result: 0 0 | 
+PrintName: |00| 
+
+Printing
+LoopPrint values: x: 2 b: 2
+PrintName: |22| 
+LoopPrint values: x: 2 b: 1
+PrintName: |21| 
+LoopPrint values: x: 2 b: 0
+PrintName: |12| 
+
+LoopPrint values: x: 1 b: 2
+PrintName: |12| 
+LoopPrint values: x: 1 b: 1
+PrintName: |11| 
+LoopPrint values: x: 1 b: 0
+PrintName: |02| 
+
+LoopPrint values: x: 0 b: 2
+PrintName: |02| 
+LoopPrint values: x: 0 b: 1
+PrintName: |01| 
+LoopPrint values: x: 0 b: 0
+PrintName: |00| 
+
+Testing
+Without reset: 
+PrintName: |12| 
+PrintName: |22| 
+PrintName: |0255| 
+PrintName: |00| 
+PrintName: |1-1| 
+
+Reset: 
+SetName: | Fed: 0 4 | Result: 0 4 | 
+PrintName: |04| 
+SetName: | Fed: 1 4 | Result: 1 4 | 
+PrintName: |14| 
+SetName: | Fed: 2 4 | Result: 2 4 | 
+PrintName: |24| 
+SetName: | Fed: 3 4 | Result: 3 4 | 
+PrintName: |34| 
+SetName: | Fed: 4 4 | Result: 4 4 | 
+PrintName: |44| 
+
+With reset: 
+PrintName: |04| 
+PrintName: |14| 
+PrintName: |24| 
+PrintName: |34| 
+PrintName: |44| 
+
+[Done] exited with code=0 in 0.386 seconds
+
+[Running] cd "c:\Users\ethan.ETHAN-DESKTOP\CodeSpace\CPP\Project 1\" && g++ main.cpp -o main && "c:\Users\ethan.ETHAN-DESKTOP\CodeSpace\CPP\Project 1\"main
+Assigning
+LoopName values: x: 2 y: 2
+SetName: | Fed: 2 2 | Result: 2 2 | 
+PrintName: |22| 
+LoopName values: x: 2 y: 1
+SetName: | Fed: 2 1 | Result: 2 1 | 
+PrintName: |21| 
+LoopName values: x: 2 y: 0
+SetName: | Fed: 2 0 | Result: 2 0 | 
+PrintName: |20| 
+
+LoopName values: x: 1 y: 2
+SetName: | Fed: 1 2 | Result: 1 2 | 
+PrintName: |12| 
+LoopName values: x: 1 y: 1
+SetName: | Fed: 1 1 | Result: 1 1 | 
+PrintName: |11| 
+LoopName values: x: 1 y: 0
+SetName: | Fed: 1 0 | Result: 1 0 | 
+PrintName: |10| 
+
+LoopName values: x: 0 y: 2
+SetName: | Fed: 0 2 | Result: 0 2 | 
+PrintName: |02| 
+LoopName values: x: 0 y: 1
+SetName: | Fed: 0 1 | Result: 0 1 | 
+PrintName: |01| 
+LoopName values: x: 0 y: 0
+SetName: | Fed: 0 0 | Result: 0 0 | 
+PrintName: |00| 
+
+Printing
+LoopPrint values: x: 2 b: 2
+PrintName: |22| 
+LoopPrint values: x: 2 b: 1
+PrintName: |21| 
+LoopPrint values: x: 2 b: 0
+PrintName: |12| 
+
+LoopPrint values: x: 1 b: 2
+PrintName: |12| 
+LoopPrint values: x: 1 b: 1
+PrintName: |11| 
+LoopPrint values: x: 1 b: 0
+PrintName: |02| 
+
+LoopPrint values: x: 0 b: 2
+PrintName: |02| 
+LoopPrint values: x: 0 b: 1
+PrintName: |01| 
+LoopPrint values: x: 0 b: 0
+PrintName: |00| 
+
+Testing
+Without reset: 
+PrintName: |02| 
+PrintName: |02| 
+PrintName: |12| 
+
+Reset: 
+SetName: | Fed: 0 2 | Result: 0 2 | 
+PrintName: |02| 
+SetName: | Fed: 1 0 | Result: 1 0 | 
+PrintName: |10| 
+SetName: | Fed: 2 0 | Result: 2 0 | 
+PrintName: |20| 
+
+With reset: 
+PrintName: |10| 
+PrintName: |10| 
+PrintName: |20| 
+
+[Done] exited with code=0 in 0.39 seconds
+
+[Running] cd "c:\Users\ethan.ETHAN-DESKTOP\CodeSpace\CPP\Project 1\" && g++ main.cpp -o main && "c:\Users\ethan.ETHAN-DESKTOP\CodeSpace\CPP\Project 1\"main
+Assigning
 LoopName values: x: 0 y: 0
 SetName: | Fed: 0 0 | Result: 0 0 | 
 PrintName: |00| 
@@ -80,61 +238,6 @@ SetName: | Fed: 4 4 | Result: 4 4 |
 PrintName: |44| 
 
 Printing
-LoopPrint values: a: 0 b: 0
-PrintName: |00| 
-LoopPrint values: a: 0 b: 1
-PrintName: |01| 
-LoopPrint values: a: 0 b: 2
-PrintName: |02| 
-LoopPrint values: a: 0 b: 3
-PrintName: |03| 
-LoopPrint values: a: 0 b: 4
-PrintName: |10| 
-
-LoopPrint values: a: 1 b: 0
-PrintName: |10| 
-LoopPrint values: a: 1 b: 1
-PrintName: |11| 
-LoopPrint values: a: 1 b: 2
-PrintName: |12| 
-LoopPrint values: a: 1 b: 3
-PrintName: |13| 
-LoopPrint values: a: 1 b: 4
-PrintName: |20| 
-
-LoopPrint values: a: 2 b: 0
-PrintName: |20| 
-LoopPrint values: a: 2 b: 1
-PrintName: |21| 
-LoopPrint values: a: 2 b: 2
-PrintName: |22| 
-LoopPrint values: a: 2 b: 3
-PrintName: |23| 
-LoopPrint values: a: 2 b: 4
-PrintName: |30| 
-
-LoopPrint values: a: 3 b: 0
-PrintName: |30| 
-LoopPrint values: a: 3 b: 1
-PrintName: |31| 
-LoopPrint values: a: 3 b: 2
-PrintName: |32| 
-LoopPrint values: a: 3 b: 3
-PrintName: |33| 
-LoopPrint values: a: 3 b: 4
-PrintName: |40| 
-
-LoopPrint values: a: 4 b: 0
-PrintName: |40| 
-LoopPrint values: a: 4 b: 1
-PrintName: |41| 
-LoopPrint values: a: 4 b: 2
-PrintName: |42| 
-LoopPrint values: a: 4 b: 3
-PrintName: |43| 
-LoopPrint values: a: 4 b: 4
-PrintName: |44| 
-
 Testing
 Without reset: 
 PrintName: |10| 
@@ -142,6 +245,7 @@ PrintName: |20|
 PrintName: |30| 
 PrintName: |40| 
 PrintName: |44| 
+
 Reset: 
 SetName: | Fed: 0 4 | Result: 0 4 | 
 PrintName: |04| 
@@ -153,6 +257,7 @@ SetName: | Fed: 3 4 | Result: 3 4 |
 PrintName: |34| 
 SetName: | Fed: 4 4 | Result: 4 4 | 
 PrintName: |44| 
+
 With reset: 
 PrintName: |04| 
 PrintName: |14| 
