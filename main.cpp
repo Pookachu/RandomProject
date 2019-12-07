@@ -83,32 +83,6 @@ void PrintAll()
     */
 }
 
-void test()
-{
-    std::cout << "Without reset: " << std::endl;
-    blank[0][4].PrintName();
-    blank[1][4].PrintName();
-    blank[2][4].PrintName();
-    blank[3][4].PrintName();
-    blank[4][4].PrintName();
-    std::cout << std::endl;
-
-    std::cout << "Reset: " << std::endl;
-    blank[0][4].SetName(0, 4);
-    blank[1][4].SetName(1, 4);
-    blank[2][4].SetName(2, 4);
-    blank[3][4].SetName(3, 4);
-    blank[4][4].SetName(4, 4);
-    std::cout << std::endl;
-
-    std::cout << "With reset: " << std::endl;
-    blank[0][4].PrintName();
-    blank[1][4].PrintName();
-    blank[2][4].PrintName();
-    blank[3][4].PrintName();
-    blank[4][4].PrintName();
-}
-
 int main()
 {
     std::cout << "Assigning" << std::endl;
@@ -117,5 +91,6 @@ int main()
     //PrintAll();
     std::cout << "Testing" << std::endl;
     test();
+    PrintAll();
     return 0;
 }
